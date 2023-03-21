@@ -34,7 +34,7 @@ The `AppName` is the exact name of the app you want to send the messages to.
 ##### SessionToken (Pre-stream start)
 This is the most complicated to get. You need to go to [https://www.tumblr.com/live](https://www.tumblr.com/live) and then open the developer tools.
 
-Go to the Network tab and then refresh the page. You should now see requests. Filter for the following request: `live.com/video-api/tumblr/functions/sns-video:getFollowingBroadcasts`.
+Go to the Network tab and then refresh the page. You should now see requests. Filter for the following request: `api/tumblr/functions/sns-video:getFollowingBroadcasts`.
 
 Click on the request and then go to the Headers tab. You should see a `Headers` section. Scroll down until you see the `X-Parse-Session-Token` header. Copy the value of that header and paste it into the `SessionToken` field in the config.
 
