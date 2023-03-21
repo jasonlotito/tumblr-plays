@@ -10,7 +10,7 @@ For a Tumblr Let's Play!
 
 ### Install Packages
 
-After downloading the repo, run `npm install` to install the required packages.
+After downloading the repo, run `npm install` in the Terminal to install the required packages.
 
 ### Config
 
