@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "TMG Chat Reader",
+  "version": "1.0",
+  "description": "Reads TMG Chat",
+  "content_scripts": [
+    {
+      "all_frames": true,
+      "matches": ["https://api.gateway.meetme.com/*"],
+      "js": ["ext.js"]
+    }
+  ]
+}

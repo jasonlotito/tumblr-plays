@@ -1,0 +1,20 @@
+{
+  "name": "tmg-chat-reader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node reader.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nut-tree/nut-js": "^3.0.0",
+    "cli-table3": "^0.6.3",
+    "fetch": "^1.1.0",
+    "node-fetch": "^2.6.7",
+    "ws": "^8.11.0",
+    "yaml": "^2.2.1"
+  }
+}
