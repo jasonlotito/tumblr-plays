@@ -81,7 +81,7 @@ Right: Right Arrow
     // cmd = "NOTCMD" + ltr
   }
 
-  exec(`sendkeys --application-name "${appName}" --characters "${cmd}\n"`)
+  exec(`sendkeys --application-name "${appName}" --characters "${cmd}"`)
 }
 
 
